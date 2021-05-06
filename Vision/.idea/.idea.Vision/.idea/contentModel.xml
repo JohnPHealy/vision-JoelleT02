@@ -281,6 +281,8 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ActivateText.cs" t="Include" />
+          <e p="CounterScript.cs" t="Include" />
+          <e p="Notebook Manager.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="TextBoxManager.cs" t="Include" />
           <e p="TextImporter.cs" t="Include" />

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ActivateText : MonoBehaviour
 {
@@ -16,10 +17,16 @@ public class ActivateText : MonoBehaviour
     private bool waitForPress;
 
     public bool destroyWhenActivated;
+    
+    public Text ScoreText;
+    private int ScoreNum;
+    
 
     void Start()
     {
         theTextBox = FindObjectOfType<TextBoxManager>();
+        ScoreNum = 0;
+        ScoreText.text = "Notebooks: " + ScoreNum;
         
     }
 
@@ -31,6 +38,8 @@ public class ActivateText : MonoBehaviour
             theTextBox.currentLine = startLine;
             theTextBox.endAtLine = endLine;
             theTextBox.EnableTextBox();
+            ScoreNum += 1;
+            ScoreText.text = "Notebooks: " + ScoreNum;
 
             if (destroyWhenActivated)
             {
@@ -55,6 +64,8 @@ public class ActivateText : MonoBehaviour
             theTextBox.currentLine = startLine;
             theTextBox.endAtLine = endLine;
             theTextBox.EnableTextBox();
+            ScoreNum += 1;
+            ScoreText.text = "Notebooks: " + ScoreNum;
         }
     }
 
