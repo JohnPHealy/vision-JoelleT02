@@ -18,15 +18,13 @@ public class ActivateText : MonoBehaviour
 
     public bool destroyWhenActivated;
     
-    public Text ScoreText;
-    private int ScoreNum;
+
     
 
     void Start()
     {
         theTextBox = FindObjectOfType<TextBoxManager>();
-        ScoreNum = 0;
-        ScoreText.text = "Notebooks: " + ScoreNum;
+
         
     }
 
@@ -38,21 +36,22 @@ public class ActivateText : MonoBehaviour
             theTextBox.currentLine = startLine;
             theTextBox.endAtLine = endLine;
             theTextBox.EnableTextBox();
-            ScoreNum += 1;
-            ScoreText.text = "Notebooks: " + ScoreNum;
+
 
             if (destroyWhenActivated)
             {
                 Destroy(gameObject);
+                
             }
+
             
-            
+
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.name == "Player")
+        if (other.tag == "Player")
         {
             if (requireButtonPress)
             {
@@ -64,14 +63,14 @@ public class ActivateText : MonoBehaviour
             theTextBox.currentLine = startLine;
             theTextBox.endAtLine = endLine;
             theTextBox.EnableTextBox();
-            ScoreNum += 1;
-            ScoreText.text = "Notebooks: " + ScoreNum;
+            
+
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.name == "Player")
+        if (other.tag == "Player")
         {
             waitForPress = false;
         }

@@ -4,15 +4,8 @@
     <list default="true" id="9c07fe81-8a56-4047-af7c-40dba33a3c97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Renderer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Actual Art.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Actual Art.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Notebook 1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/Notebook 1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LWRP Asset.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LWRP Asset.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LWRP Asset_Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LWRP Asset_Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Intro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/Intro.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActivateText.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +19,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Notebook Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextImporter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBoxManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -34,10 +28,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/TextImporter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TextBoxManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Dialogue/Intro.txt" />
       <option value="$PROJECT_DIR$/Assets/Dialogue/Notebook 1.txt" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ActivateText.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CounterScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ActivateText.cs" />
+      <option value="$PROJECT_DIR$/Assets/Dialogue/Intro.txt" />
+      <option value="$PROJECT_DIR$/Assets/Dialogue/Notebook 2.txt" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rMYFAX28E5nhPnD9r1w1hIjmB6" />
@@ -91,7 +87,8 @@
       <workItem from="1618787362669" duration="96000" />
       <workItem from="1620231516777" duration="13827000" />
       <workItem from="1620297314209" duration="912000" />
-      <workItem from="1620314279653" duration="3197000" />
+      <workItem from="1620314279653" duration="14470000" />
+      <workItem from="1620338640170" duration="312000" />
     </task>
     <servers />
   </component>

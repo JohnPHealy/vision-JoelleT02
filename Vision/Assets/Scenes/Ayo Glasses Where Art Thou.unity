@@ -123,6 +123,29 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &87481753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7336685843698118423, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
+  m_PrefabInstance: {fileID: 1954042922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &87481756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87481753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080625703727cc64a92f0ce59af5476e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 4900000, guid: 7e27e649501a2a7449b57273a9ed3556, type: 3}
+  startLine: 0
+  endLine: 3
+  theTextBox: {fileID: 1586300158}
+  requireButtonPress: 0
+  destroyWhenActivated: 1
 --- !u!1 &94672097
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,11 +441,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &178890544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7336685843698118423, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
+  m_PrefabInstance: {fileID: 329833804}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &178890545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6132443701522427893, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
   m_PrefabInstance: {fileID: 329833804}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &178890548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178890544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080625703727cc64a92f0ce59af5476e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 4900000, guid: fcf40e7cb4980854a8190ccf090f6388, type: 3}
+  startLine: 0
+  endLine: 2
+  theTextBox: {fileID: 1586300158}
+  requireButtonPress: 0
+  destroyWhenActivated: 1
 --- !u!4 &232430576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 509933870997961742, guid: e77ac0bad5221e0428e26074fc893c8d, type: 3}
@@ -548,7 +594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6132443701522427893, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6132443701522427893, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
       propertyPath: m_LocalPosition.x
@@ -592,7 +638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7336685843698118423, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
       propertyPath: m_Name
-      value: Notebook 5
+      value: Notebook 4
       objectReference: {fileID: 0}
     - target: {fileID: 7336685843698118423, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
       propertyPath: m_TagString
@@ -8534,6 +8580,37 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &599253487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599253481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080625703727cc64a92f0ce59af5476e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 0}
+  startLine: 0
+  endLine: 0
+  theTextBox: {fileID: 1586300158}
+  requireButtonPress: 0
+  destroyWhenActivated: 0
+--- !u!114 &599253488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599253481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81d83803c58550468a2edd3fc9c53b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreText: {fileID: 1139171830}
 --- !u!1 &707715654
 GameObject:
   m_ObjectHideFlags: 0
@@ -8567,7 +8644,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -8706,9 +8783,8 @@ MonoBehaviour:
   startLine: 0
   endLine: 2
   theTextBox: {fileID: 1586300158}
-  requireButtonPress: 1
+  requireButtonPress: 0
   destroyWhenActivated: 1
-  ScoreText: {fileID: 1139171830}
 --- !u!1001 &1054429055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8722,7 +8798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6132443701522427893, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6132443701522427893, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8766,7 +8842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7336685843698118423, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
       propertyPath: m_Name
-      value: Notebook 4
+      value: Notebook 5
       objectReference: {fileID: 0}
     - target: {fileID: 7336685843698118423, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
       propertyPath: m_TagString
@@ -9164,8 +9240,8 @@ Transform:
   - {fileID: 942740184}
   - {fileID: 1495153153}
   - {fileID: 1913441287}
-  - {fileID: 1623052236}
   - {fileID: 178890545}
+  - {fileID: 1623052236}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13886,11 +13962,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1623052235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7336685843698118423, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
+  m_PrefabInstance: {fileID: 1054429055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1623052236 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6132443701522427893, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
   m_PrefabInstance: {fileID: 1054429055}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1623052239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623052235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080625703727cc64a92f0ce59af5476e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 4900000, guid: 65efc5df9e7686d42b5f0c8ae171a25e, type: 3}
+  startLine: 0
+  endLine: 3
+  theTextBox: {fileID: 1586300158}
+  requireButtonPress: 0
+  destroyWhenActivated: 1
 --- !u!1 &1665566149
 GameObject:
   m_ObjectHideFlags: 0
@@ -13901,6 +14000,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1665566151}
   - component: {fileID: 1665566150}
+  - component: {fileID: 1665566153}
+  - component: {fileID: 1665566152}
   m_Layer: 0
   m_Name: Glasses
   m_TagString: Untagged
@@ -13973,6 +14074,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1665566152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665566149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080625703727cc64a92f0ce59af5476e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 4900000, guid: 69aee5c40c98bc0418722f06e9bb7e47, type: 3}
+  startLine: 0
+  endLine: 0
+  theTextBox: {fileID: 1586300158}
+  requireButtonPress: 0
+  destroyWhenActivated: 1
+--- !u!61 &1665566153
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665566149}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0024328232, y: 0.08516312}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.90753746, y: 0.23596191}
+  m_EdgeRadius: 0
 --- !u!4 &1913441287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6132443701522427893, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
@@ -14043,6 +14188,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
+--- !u!1 &1974252996 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7336685843698118423, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
+  m_PrefabInstance: {fileID: 1576195036}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1974252999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974252996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080625703727cc64a92f0ce59af5476e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 4900000, guid: 6999fd97031920145a0309115ea880a6, type: 3}
+  startLine: 0
+  endLine: 2
+  theTextBox: {fileID: 1586300158}
+  requireButtonPress: 0
+  destroyWhenActivated: 1
 --- !u!1 &2025818721
 GameObject:
   m_ObjectHideFlags: 0
@@ -14083,7 +14251,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 13
+    m_FontSize: 20
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -14094,7 +14262,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Insert Text Here
 --- !u!222 &2025818723
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14119,7 +14287,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.68341064, y: -0.9732971}
+  m_AnchoredPosition: {x: -0.68341064, y: -0.9732895}
   m_SizeDelta: {x: -41.27359, y: -16.8199}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2040717926
