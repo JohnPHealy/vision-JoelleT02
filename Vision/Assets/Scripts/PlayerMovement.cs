@@ -11,9 +11,16 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     private Vector2 movement;
 
+    public bool canMove;
+
     // Update is called once per frame
     void Update()
     {
+        if (!canMove)
+        {
+            return;
+        }
+        
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 

@@ -278,6 +278,7 @@
           <e p="Sample Text.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="ActivateText.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="TextBoxManager.cs" t="Include" />
           <e p="TextImporter.cs" t="Include" />
