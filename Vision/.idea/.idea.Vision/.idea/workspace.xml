@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c07fe81-8a56-4047-af7c-40dba33a3c97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Intro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/Intro.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Double Door.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Double Door.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ayo Glasses Where Art Thou.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ayo Glasses Where Art Thou.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndGoal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EndGoal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +38,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerHealth.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StartMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Dialogue/Intro.txt" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorReactivator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorDeactivation.cs" />
@@ -56,6 +47,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EndGoal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rMYFAX28E5nhPnD9r1w1hIjmB6" />
@@ -114,7 +106,7 @@
       <workItem from="1620347005531" duration="9185000" />
       <workItem from="1620363744092" duration="5197000" />
       <workItem from="1620375277848" duration="693000" />
-      <workItem from="1620376165351" duration="4358000" />
+      <workItem from="1620376165351" duration="5944000" />
     </task>
     <servers />
   </component>

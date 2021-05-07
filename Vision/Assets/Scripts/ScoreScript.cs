@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Experimental.Rendering.LWRP;
 
 public class ScoreScript : MonoBehaviour
 {
@@ -15,7 +16,12 @@ public class ScoreScript : MonoBehaviour
     public GameObject notebook4;
     public GameObject notebook5;
     public GameObject glasses;
+    
     public PlayerHealth heal;
+    public HealthBar fullbar;
+    
+    public UnityEngine.Experimental.Rendering.Universal.Light2D Sight;
+    public UnityEngine.Experimental.Rendering.Universal.Light2D Spotlight;
 
     void Start()
     {
@@ -43,6 +49,10 @@ public class ScoreScript : MonoBehaviour
             GlassesGot++;
             Destroy(other.gameObject);
             GlassesText.text = "Glasses: " + GlassesGot;
+            Sight.intensity = 1;
+            Spotlight.intensity = 0;
+            heal.currentHealth = 10;
+            fullbar.SetHealth(heal.currentHealth);
         }
             
     }
