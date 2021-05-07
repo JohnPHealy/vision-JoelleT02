@@ -9,7 +9,7 @@ public class ScoreScript : MonoBehaviour
     public Text ScoreText;
     public Text GlassesText;
     public int ScoreNum;
-    private int GlassesGot;
+    public int GlassesGot;
     public GameObject notebook2;
     public GameObject notebook3;
     public GameObject notebook4;

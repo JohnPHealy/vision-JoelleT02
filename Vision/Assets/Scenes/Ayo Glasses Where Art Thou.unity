@@ -8857,6 +8857,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 402618068}
   m_CullTransparentMesh: 1
+--- !u!1 &451043481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 286305996932075374, guid: c3174e58ca0a53e4b88c8c293ad7df9c, type: 3}
+  m_PrefabInstance: {fileID: 7343632422791845830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &451043482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451043481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 123216be62d2e704d96786778a09ade5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glasses: {fileID: 599253488}
 --- !u!4 &456292429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1875227389439702127, guid: e7ec5ed4b9360ec4ba2899bbea3be367, type: 3}
@@ -9177,6 +9195,7 @@ MonoBehaviour:
   ScoreText: {fileID: 1139171830}
   GlassesText: {fileID: 1379069279}
   ScoreNum: 0
+  GlassesGot: 0
   notebook2: {fileID: 87481753}
   notebook3: {fileID: 1974252996}
   notebook4: {fileID: 178890544}
@@ -10838,9 +10857,9 @@ RectTransform:
   m_Father: {fileID: 331889556}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 89, y: 48}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 91.9, y: -66}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1379069279
