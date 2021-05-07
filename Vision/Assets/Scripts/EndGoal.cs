@@ -12,7 +12,7 @@ public class EndGoal : MonoBehaviour
     {
         if (glasses.GlassesGot == 1)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Victory Screen");
         }
     }
 }

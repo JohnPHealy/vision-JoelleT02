@@ -286,9 +286,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ActivateText.cs" t="Include" />
+          <e p="DoorDeactivation.cs" t="Include" />
           <e p="EndGoal.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
+          <e p="Music.cs" t="Include" />
           <e p="NotebookManager.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />

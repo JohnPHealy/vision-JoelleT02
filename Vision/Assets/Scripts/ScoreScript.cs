@@ -15,6 +15,7 @@ public class ScoreScript : MonoBehaviour
     public GameObject notebook4;
     public GameObject notebook5;
     public GameObject glasses;
+    public PlayerHealth heal;
 
     void Start()
     {
