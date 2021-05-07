@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ayo Glasses Where Art Thou.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ayo Glasses Where Art Thou.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Notebook Manager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Notebook Manager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,9 @@
       <option value="$PROJECT_DIR$/Assets/NotebookManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/NotebookManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlayerHealth.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rMYFAX28E5nhPnD9r1w1hIjmB6" />
@@ -93,7 +93,8 @@
       <workItem from="1620297314209" duration="912000" />
       <workItem from="1620314279653" duration="14470000" />
       <workItem from="1620338640170" duration="1071000" />
-      <workItem from="1620347005531" duration="5486000" />
+      <workItem from="1620347005531" duration="9185000" />
+      <workItem from="1620363744092" duration="601000" />
     </task>
     <servers />
   </component>

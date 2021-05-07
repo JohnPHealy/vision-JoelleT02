@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NoteBook
   - Glasses
+  - Obstacle
   layers:
   - Default
   - TransparentFX
