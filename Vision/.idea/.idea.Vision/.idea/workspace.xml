@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c07fe81-8a56-4047-af7c-40dba33a3c97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gold.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gold.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Loss.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Loss.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Silver.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Silver.asset.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +48,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Footsteps.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EndGoal.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rMYFAX28E5nhPnD9r1w1hIjmB6" />
@@ -106,7 +110,7 @@
       <workItem from="1620347005531" duration="9185000" />
       <workItem from="1620363744092" duration="5197000" />
       <workItem from="1620375277848" duration="693000" />
-      <workItem from="1620376165351" duration="5944000" />
+      <workItem from="1620376165351" duration="6554000" />
     </task>
     <servers />
   </component>
