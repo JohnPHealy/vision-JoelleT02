@@ -284,13 +284,13 @@
           <e p="Notebook 5.txt" t="Include" />
           <e p="Sample Text.txt" t="Include" />
         </e>
-        <e p="PlayerHealth.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ActivateText.cs" t="Include" />
           <e p="EndGoal.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="NotebookManager.cs" t="Include" />
+          <e p="PlayerHealth.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="ScoreScript.cs" t="Include" />
           <e p="TextBoxManager.cs" t="Include" />

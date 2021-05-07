@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c07fe81-8a56-4047-af7c-40dba33a3c97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerHealth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerHealth.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +38,14 @@
       <option value="$PROJECT_DIR$/Assets/Dialogue/Notebook 3.txt" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Notebook Manager.cs" />
       <option value="$PROJECT_DIR$/Assets/NotebookManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/NotebookManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerHealth.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StartMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EndGoal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rMYFAX28E5nhPnD9r1w1hIjmB6" />
@@ -98,7 +102,7 @@
       <workItem from="1620314279653" duration="14470000" />
       <workItem from="1620338640170" duration="1071000" />
       <workItem from="1620347005531" duration="9185000" />
-      <workItem from="1620363744092" duration="2766000" />
+      <workItem from="1620363744092" duration="4512000" />
     </task>
     <servers />
   </component>
