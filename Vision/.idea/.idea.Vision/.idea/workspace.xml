@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c07fe81-8a56-4047-af7c-40dba33a3c97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Gold.asset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Gold.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Loss.asset" beforeDir="false" />
@@ -110,7 +111,7 @@
       <workItem from="1620347005531" duration="9185000" />
       <workItem from="1620363744092" duration="5197000" />
       <workItem from="1620375277848" duration="693000" />
-      <workItem from="1620376165351" duration="6554000" />
+      <workItem from="1620376165351" duration="7149000" />
     </task>
     <servers />
   </component>
