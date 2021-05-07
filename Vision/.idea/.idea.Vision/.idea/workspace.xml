@@ -4,9 +4,10 @@
     <list default="true" id="9c07fe81-8a56-4047-af7c-40dba33a3c97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vision/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Intro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/Intro.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActivateText.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ayo Glasses Where Art Thou.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ayo Glasses Where Art Thou.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Notebook Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Notebook Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +19,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Notebook Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextImporter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBoxManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -33,7 +33,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ActivateText.cs" />
       <option value="$PROJECT_DIR$/Assets/Dialogue/Intro.txt" />
       <option value="$PROJECT_DIR$/Assets/Dialogue/Notebook 2.txt" />
+      <option value="$PROJECT_DIR$/Assets/Dialogue/Notebook 3.txt" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Notebook Manager.cs" />
+      <option value="$PROJECT_DIR$/Assets/NotebookManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NotebookManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rMYFAX28E5nhPnD9r1w1hIjmB6" />
@@ -88,7 +92,8 @@
       <workItem from="1620231516777" duration="13827000" />
       <workItem from="1620297314209" duration="912000" />
       <workItem from="1620314279653" duration="14470000" />
-      <workItem from="1620338640170" duration="312000" />
+      <workItem from="1620338640170" duration="1071000" />
+      <workItem from="1620347005531" duration="5486000" />
     </task>
     <servers />
   </component>

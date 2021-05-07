@@ -145,7 +145,7 @@ MonoBehaviour:
   endLine: 3
   theTextBox: {fileID: 1586300158}
   requireButtonPress: 0
-  destroyWhenActivated: 1
+  destroyWhenActivated: 0
 --- !u!1 &94672097
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,7 +468,7 @@ MonoBehaviour:
   endLine: 2
   theTextBox: {fileID: 1586300158}
   requireButtonPress: 0
-  destroyWhenActivated: 1
+  destroyWhenActivated: 0
 --- !u!4 &232430576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 509933870997961742, guid: e77ac0bad5221e0428e26074fc893c8d, type: 3}
@@ -678,6 +678,7 @@ RectTransform:
   m_Children:
   - {fileID: 94672098}
   - {fileID: 1139171829}
+  - {fileID: 1379069278}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8611,6 +8612,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 1139171830}
+  GlassesText: {fileID: 1379069279}
+  ScoreNum: 0
+  notebook2: {fileID: 87481753}
+  notebook3: {fileID: 1974252996}
+  notebook4: {fileID: 178890544}
+  notebook5: {fileID: 1623052235}
+  glasses: {fileID: 1665566149}
 --- !u!1 &707715654
 GameObject:
   m_ObjectHideFlags: 0
@@ -8644,7 +8652,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -8784,7 +8792,7 @@ MonoBehaviour:
   endLine: 2
   theTextBox: {fileID: 1586300158}
   requireButtonPress: 0
-  destroyWhenActivated: 1
+  destroyWhenActivated: 0
 --- !u!1001 &1054429055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9143,6 +9151,85 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1379069277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1379069278}
+  - component: {fileID: 1379069280}
+  - component: {fileID: 1379069279}
+  m_Layer: 5
+  m_Name: Glasses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1379069278
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379069277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 331889556}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 89, y: 48}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1379069279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379069277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 26
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1379069280
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379069277}
+  m_CullTransparentMesh: 1
 --- !u!4 &1455732808 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1875227389439702127, guid: e7ec5ed4b9360ec4ba2899bbea3be367, type: 3}
@@ -13989,7 +14076,7 @@ MonoBehaviour:
   endLine: 3
   theTextBox: {fileID: 1586300158}
   requireButtonPress: 0
-  destroyWhenActivated: 1
+  destroyWhenActivated: 0
 --- !u!1 &1665566149
 GameObject:
   m_ObjectHideFlags: 0
@@ -14004,7 +14091,7 @@ GameObject:
   - component: {fileID: 1665566152}
   m_Layer: 0
   m_Name: Glasses
-  m_TagString: Untagged
+  m_TagString: Glasses
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14102,7 +14189,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0024328232, y: 0.08516312}
@@ -14118,6 +14205,55 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.90753746, y: 0.23596191}
   m_EdgeRadius: 0
+--- !u!1 &1900095141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1900095143}
+  - component: {fileID: 1900095142}
+  m_Layer: 0
+  m_Name: Notebook Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1900095142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900095141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971991a5cec557f48bb0fbd651059f50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 599253488}
+  activate2: {fileID: 87481753}
+  activate3: {fileID: 1974252996}
+  activate4: {fileID: 178890544}
+  activate5: {fileID: 1623052235}
+  activateGlasses: {fileID: 1665566149}
+--- !u!4 &1900095143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900095141}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.9924855, y: 4.500571, z: -542.8907}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1913441287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6132443701522427893, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
@@ -14183,6 +14319,10 @@ PrefabInstance:
       value: Notebook 2
       objectReference: {fileID: 0}
     - target: {fileID: 7336685843698118423, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336685843698118423, guid: 99adcd0d548fc014b8993d9b27bf4f29, type: 3}
       propertyPath: m_TagString
       value: NoteBook
       objectReference: {fileID: 0}
@@ -14210,7 +14350,7 @@ MonoBehaviour:
   endLine: 2
   theTextBox: {fileID: 1586300158}
   requireButtonPress: 0
-  destroyWhenActivated: 1
+  destroyWhenActivated: 0
 --- !u!1 &2025818721
 GameObject:
   m_ObjectHideFlags: 0

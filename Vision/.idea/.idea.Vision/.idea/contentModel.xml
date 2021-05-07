@@ -275,15 +275,18 @@
       <e p="Assembly-CSharp.Player.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Dialogue" t="Include">
+          <e p="Glasses Found.txt" t="Include" />
           <e p="Intro.txt" t="Include" />
           <e p="Notebook 1.txt" t="Include" />
           <e p="Notebook 2.txt" t="Include" />
           <e p="Notebook 3.txt" t="Include" />
+          <e p="Notebook 4.txt" t="Include" />
+          <e p="Notebook 5.txt" t="Include" />
           <e p="Sample Text.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="ActivateText.cs" t="Include" />
-          <e p="Notebook Manager.cs" t="Include" />
+          <e p="NotebookManager.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="ScoreScript.cs" t="Include" />
           <e p="TextBoxManager.cs" t="Include" />
